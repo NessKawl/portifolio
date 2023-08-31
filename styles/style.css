@@ -101,7 +101,7 @@ body{
 .rodape {
     color: var(--cor1);
     background-color: var(--cor3);
-    padding: 24px;
+    padding: 1%;
     text-align: center;
     font-family: var(--fonte2);
     font-size: 1.5rem;
@@ -110,6 +110,11 @@ body{
 
 .apresentacao__imagem {
     width: 50%;
+}
+
+.apresentacao__links__projetos {
+    text-decoration: underline;
+    color: var(--cor2);
 }
 
 @media (max-width: 1200px) {
