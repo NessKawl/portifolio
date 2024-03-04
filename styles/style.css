@@ -1,12 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
+    /*
     --cor1: #AEEF5D;
     --cor2: #538F71; 
     --cor3: #B588FF;
     --cor5: #53EDAB;
     --cor6: #ACEDA2;
-    --cor-hover: #EAF046;
+    --cor-hover: #EAF046;*/
+
+    /* 
+    --cor1: #114232;
+    --cor2: #87A922; 
+    --cor3: #FCDC2A;
+    --cor5: #F7F6BB;
+    --cor6: #ACEDA2;
+    --cor-hover: #EAF046;*/
+    
+    /*
+    --cor1: #FFB534;
+    --cor2: #FBF6EE; 
+    --cor3: #C1F2B0;
+    --cor5: #65B741;
+    --cor6: #ACEDA2;
+    --cor-hover: #EAF046;*/
+    
+    /*
+    --cor1: #425F57;
+    --cor2: #749F82; 
+    --cor3: #A8E890;
+    --cor5: #CFFF8D;
+    --cor6: #ACEDA2;
+    --cor-hover: #EAF046;*/
+
+    --cor1: #DADAF5;
+    --cor2: #86A37E; 
+    --cor3: #84F562;
+    --cor5: #756E6A;
+    --cor6: #F59462;
+    --cor-hover: #3E3E75;    
 
     --fonte1: 'Krona One', sans-serif;
     --fonte2: 'Montserrat', sans-serif;
@@ -24,10 +56,12 @@ body{
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+    background-color: var(--cor2);
+    padding: 2%;
 }
 
 .cabecalho__menu {
+    padding-left: 15%;
     display: flex;
     gap: 80px;
 }
@@ -96,13 +130,13 @@ body{
     font-family: var(--fonte2);
 }
 
-.apresentacao__links__link:hover {
-    background-color: var(--cor-hover);
+.apresentacao__links__projetos:hover {
+    text-decoration: underline;
 }
 
 .rodape {
     color: var(--cor1);
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     padding: 1%;
     text-align: center;
     font-family: var(--fonte2);
@@ -116,7 +150,7 @@ body{
 }
 
 .apresentacao__links__projetos {
-    text-decoration: underline;
+    text-decoration: none;
     color: var(--cor2);
 }
 
