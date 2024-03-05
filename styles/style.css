@@ -32,14 +32,13 @@
     --cor5: #CFFF8D;
     --cor6: #ACEDA2;
     --cor-hover: #EAF046;*/
-
-    --cor1: #DADAF5;
-    --cor2: #86A37E; 
-    --cor2-opacity: #87a380c5;
+    
+    --cor1: #bebef8;
+    --cor2: #38b715; 
+    --cor2-opacity: #38b715c4;
     --cor3: #84F562;
-    --cor5: #756E6A;
-    --cor6: #F59462;
-    --cor7: #3E3E75;    
+    --cor5: #4b4b4b;
+    --cor7: #3E3E75;
 
     --fonte1: 'Krona One', sans-serif;
     --fonte2: 'Montserrat', sans-serif;
@@ -62,7 +61,7 @@ body{
 }
 
 .cabecalho__titulo {
-    color: white;
+    color: var(--cor1);
     font-family: var(--fonte1);
     text-align: center;
 }
@@ -132,7 +131,7 @@ body{
 .apresentacao__links__navegacao{
     display: flex;
     justify-content: center;
-    border: 2px solid var(--cor3);
+    border: 2px solid var(--cor2-opacity);
     width: 50%;
     text-align: center;
     border-radius: 8px;
@@ -150,7 +149,7 @@ body{
 }
 
 .rodape {
-    color: var(--cor1);
+    color: var(--cor5);
     background-color: var(--cor2);
     padding: 1%;
     text-align: center;
