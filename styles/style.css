@@ -33,12 +33,18 @@
     --cor6: #ACEDA2;
     --cor-hover: #EAF046;*/
     
-    --cor1: #bebef8;
+    /* --cor1: #bebef8;
     --cor2: #38b715; 
     --cor2-opacity: #38b715c4;
     --cor3: #84F562;
     --cor5: #4b4b4b;
-    --cor7: #3E3E75;
+    --cor7: #3E3E75; */
+
+    --cor1: #150D28;
+    --cor2: #212529; 
+    --cor2-opacity: #212529;
+    --cor3: #ffff;
+    --cor4: #0DCAF0;
 
     --fonte1: 'Krona One', sans-serif;
     --fonte2: 'Montserrat', sans-serif;
@@ -52,7 +58,6 @@
 body{
     box-sizing: border-box;
     background-color: var(--cor1);
-    color: var(--cor2);
 }
 
 .cabecalho {
@@ -61,7 +66,7 @@ body{
 }
 
 .cabecalho__titulo {
-    color: var(--cor1);
+    color: var(--cor3);
     font-family: var(--fonte1);
     text-align: center;
 }
@@ -74,9 +79,8 @@ body{
 
 .cabecalho__menu__navegacao {
     font-family: var(--fonte2);
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--cor7);
+    font-size: 1.2rem;
+    color: var(--cor3);
     text-decoration: none;
     padding: 1%;
 }
@@ -102,10 +106,11 @@ body{
     font-size: 2.25rem;
     font-family: var(--fonte1);
     margin-bottom: 5%;
+    color: var(--cor3);
 }
 
 .titulo-destaque{
-    color: var(--cor7);
+    color: var(--cor4);
 }
 
 .apresentacao__conteudo__texto{
@@ -114,6 +119,7 @@ body{
     line-height: 1.5;
     margin-bottom: 10%;
     width: 80%;
+    color: var(--cor3);
 }
 
 .apresentacao__links{
@@ -127,6 +133,7 @@ body{
     font-weight: 400;
     font-size: 1.5rem;
     margin-bottom: 5%;
+    color: var(--cor4);
 }
 .apresentacao__links__navegacao{
     display: flex;
@@ -139,23 +146,9 @@ body{
     font-weight: 600;
     padding: 3% 0;
     text-decoration: none;
-    color: var(--cor2);
+    color: var(--cor3);
     font-family: var(--fonte2);
     margin-bottom: 5%;
-}
-
-.apresentacao__links__projetos:hover {
-    text-decoration: underline;
-}
-
-.rodape {
-    color: var(--cor5);
-    background-color: var(--cor2);
-    padding: 1%;
-    text-align: center;
-    font-family: var(--fonte2);
-    font-size: 1.5rem;
-    font-weight: 400;
 }
 
 .apresentacao__imagem {
@@ -165,8 +158,43 @@ body{
 
 .apresentacao__links__projetos {
     text-decoration: none;
-    color: var(--cor2);
+    color: var(--cor3);
 }
+
+.apresentacao__links__projetos:hover {
+    text-decoration: underline;
+}
+
+.img_redes {
+    margin-right: 3%;
+}
+
+.rodape {
+    color: var(--cor3);
+    background-color: var(--cor2);
+    padding: 1%;
+    text-align: center;
+    font-family: var(--fonte2);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.p_footer {
+    font-size: 1rem;
+}
+
+.p-2 {
+    padding: 2%;
+}
+
+.w-5 {
+    width: 100px;
+}
+
+.mb-2 {
+    margin-bottom: 2%;
+}
+
 
 li {
     margin-left: 5%;
